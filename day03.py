@@ -33,4 +33,4 @@ base_fee = float(input("Alapdij: "))
 
 total_fare = kilometers * price_per_km + base_fee
 
-print(f"A teljes viteldij: £{total_fare}")
+print(f"A teljes viteldij: £{total_fare:.2f}")
