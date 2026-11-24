@@ -13,7 +13,7 @@ else:
 cost = int(input("Kerem a vasarlas osszeget: "))
 is_member = input("VIP (Yes/No): ")
 
-if cost >= 1000 or is_member == Yes:
+if cost >= 100 or is_member == "Yes":
     print("Discount applied.")
 else:
     print("No discount available.")
@@ -22,7 +22,7 @@ else:
 
 is_blocked = False
 
-if is_blocked != False:
+if not is_blocked:
     print("Access granted.")
 else:
     print("Access denied.")
